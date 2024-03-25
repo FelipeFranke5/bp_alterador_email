@@ -89,8 +89,7 @@ class ValidadorAlteraEmailAPI:
             resultado = int(busca.text.split()[3])
         except ValueError:
             return 0
-        else:
-            return resultado
+        return resultado
 
 
 class ValidadorAlteraEmailCheckout:
@@ -105,5 +104,4 @@ class ValidadorAlteraEmailCheckout:
             resultado = int(busca.text.split()[3])
         except ValueError:
             return 0
-        else:
-            return resultado
+        return resultado
